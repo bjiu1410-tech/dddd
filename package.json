@@ -1,0 +1,11 @@
+{
+  "name": "hogwarts-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "음성으로 주문을 외치고 폰을 지팡이처럼 휘두르는 해리포터 마법 결투 웹 게임",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test test/*.test.js"
+  }
+}
